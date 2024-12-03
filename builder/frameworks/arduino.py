@@ -10,6 +10,9 @@ FRAMEWORK_DIR = platform.get_package_dir("framework-arduinowch51")
 assert isdir(FRAMEWORK_DIR)
 
 env.Append(
+    CFLAGS = [
+        "--model-large"
+    ],
     CPPDEFINES=[
         "ARDUINO_ARCH_MCS51",
         ("ARDUINO", 10802),
