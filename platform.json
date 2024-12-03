@@ -33,12 +33,12 @@
     "toolchain-sdcc": {
       "type": "toolchain",
       "owner": "platformio",
-      "version": ">=1.40100.0,<1.40201.0"
+      "version": ">=1.40100.0,<1.40401.0"
     },
     "framework-arduinowch51": {
       "type": "framework",
       "optional": true,
-      "version": "https://github.com/OS-Q/framework-arduinowch51.git"
+      "version": "https://github.com/nerimoe/framework-arduinowch51.git"
     },
     "framework-wch51": {
       "type": "framework",
