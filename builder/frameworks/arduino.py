@@ -13,7 +13,7 @@ env.Append(
     CFLAGS = [
         "--model-large"
     ],
-    LFLAGS = [
+    LINKFLAGS = [
         "--model-large"
     ],
     CPPDEFINES=[

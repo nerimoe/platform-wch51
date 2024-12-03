@@ -1,11 +1,11 @@
 {
   "build": {
     "core": "ch55xduino",
-    "extra_flags": "-DNAKED_ARCH_MCS51 --model-large",
+    "extra_flags": "-DNAKED_ARCH_MCS51",
     "f_cpu": "24000000L",
     "size_iram": 256,
     "size_xram": 1024,
-    "size_code": 16384,
+    "size_code": 14336,
     "size_heap": 128,
     "mcu": "ch552",
     "cpu": "mcs51",
@@ -17,7 +17,7 @@
   ],
   "upload": {
     "maximum_ram_size": 1024,
-    "maximum_size": 16384,
+    "maximum_size": 14336,
     "protocol": "ch55x"
   },
   "name": "ch552",
