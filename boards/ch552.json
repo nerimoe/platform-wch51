@@ -1,7 +1,7 @@
 {
   "build": {
     "core": "ch55xduino",
-    "extra_flags": "-DNAKED_ARCH_MCS51",
+    "extra_flags": "-DNAKED_ARCH_MCS51 --model-large",
     "f_cpu": "24000000L",
     "size_iram": 256,
     "size_xram": 1024,
