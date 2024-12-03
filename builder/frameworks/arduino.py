@@ -13,6 +13,9 @@ env.Append(
     CFLAGS = [
         "--model-large"
     ],
+    LFLAGS = [
+        "--model-large"
+    ],
     CPPDEFINES=[
         "ARDUINO_ARCH_MCS51",
         ("ARDUINO", 10802),
